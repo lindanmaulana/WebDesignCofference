@@ -5,7 +5,7 @@ const HeroBanner = () => {
           <div className="bg-[url('./src/assets/img/bg/banner.jpg')] bg-cover bg-center">
             <div className="bg-black/60">
               <div className="container px-10">
-                <div className="flex flex-col items-center justify-center w-full h-screen text-center">
+                <div className="flex-col w-full h-screen text-center flexbox-center">
                   <h3 className="text-[24px] text-[#FFFFFF] font-semibold">
                     July 22 - 26 in San Francisco, CA
                   </h3>

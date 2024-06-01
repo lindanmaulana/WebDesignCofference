@@ -9,7 +9,7 @@ import FooterList from "../../elements/FooterList";
 
 const FooterListIcons = () => {
   return (
-    <div className="flex gap-x-[5px]">
+    <div className="flex gap-x-[5px] py-4">
       <FooterList>
         <FaFacebookF className="self-center text-[#707070] group-hover:text-[#FFFFFF]" />
       </FooterList>
