@@ -13,17 +13,17 @@ const Speakers = () => {
           />
           <div className="w-full overflow-x-auto flexbox-center snap-mandatory snap-x custom-scrollbar-x">
             <SpeakersPerson
-              src="/lindan.jpg"
+              src="/src/assets/img/person/lindan.jpg"
               name="Lindan Maulana"
               role="Frontend Dev"
             />
             <SpeakersPerson
-              src="/reyhan.jpg"
+              src="/src/assets/img/person/reyhan.jpg"
               name="Reyhan Setyawan"
               role="Database Management"
             />
             <SpeakersPerson
-              src="/adit.jpg"
+              src="/src/assets/img/person/adit.jpg"
               name="Aditya Ramadhan"
               role="UI/UX Designer"
             />
