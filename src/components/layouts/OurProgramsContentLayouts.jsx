@@ -6,7 +6,7 @@ const OurProgramsContentLayouts = (props) => {
     <div className="flex w-full py-[15px]">
       <div className="w-1/8 max-h-[180px] px-[15px] flex justify-start items-start">
         <img
-          src={`/assets/img/person${src}`}
+          src={`/assets/img/person/${src}`}
           alt={name}
           className="w-[125px] h-[125px] rounded-full"
         />
