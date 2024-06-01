@@ -7,7 +7,7 @@ const SpeakersPerson = (props) => {
         <div className="flex flex-col items-center justify-start w-full h-full px-4 py-6">
           <img src="" alt="" />
           <img
-            src={`/public/assets/img/person/${src}`}
+            src={`/assets/img/person/${src}`}
             alt={name}
             className="w-full max-h-[262px] mb-[20px] bg-center"
           />
