@@ -6,7 +6,7 @@ const SpeakersPerson = (props) => {
       <div className="w-[293px] h-[439px] flex snap-always">
         <div className="flex flex-col items-center justify-start w-full h-full px-4 py-6">
           <img
-            src={`/src/assets/img/person${src}`}
+            src={`/src/assets/img/person/${src}`}
             alt={name}
             className="w-full max-h-[262px] mb-[20px] bg-center"
           />
