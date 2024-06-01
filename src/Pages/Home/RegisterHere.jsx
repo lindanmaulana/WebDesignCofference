@@ -1,6 +1,6 @@
 const RegisterHere = () => {
   return (
-    <section className="bg-[url('/src/assets/img/bg/register.jpg')] bg-center bg-cover">
+    <section className="bg-[url('/public/assets/img/bg/register.jpg')] bg-center bg-cover">
       <div className="bg-black/80 py-[140px]">
         <div className="container px-10">
           <div className="flex items-center justify-center w-full ">

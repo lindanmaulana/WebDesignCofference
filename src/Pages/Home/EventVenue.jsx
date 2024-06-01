@@ -2,7 +2,7 @@ import Description from "../../components/elements/Description"
 
 const EventVenue = () => {
   return (
-    <section className="bg-[url(/src/assets/img/bg/venue.jpg)] bg-center bg-cover">
+    <section className="bg-[url(/public/assets/img/bg/venue.jpg)] bg-center bg-cover">
     <div className="py-[70px]">
       <div className="container px-10">
         <div className="max-w-4xl mx-auto">
