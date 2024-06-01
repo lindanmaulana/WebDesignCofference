@@ -5,7 +5,7 @@ const FirstDay = () => {
   return (
     <Fragment>
       <OurProgramsContentLayouts
-        src="/lindan.jpg"
+        src="lindan.jpg"
         time="09.00 AM"
         room="240"
         role="Front-End Development"
@@ -16,7 +16,7 @@ const FirstDay = () => {
       />
 
       <OurProgramsContentLayouts
-        src="/reyhan.jpg"
+        src="reyhan.jpg"
         time="11.00 AM"
         room="250"
         role="Database Management"
@@ -27,7 +27,7 @@ const FirstDay = () => {
       />
 
       <OurProgramsContentLayouts
-        src="/adit.jpg"
+        src="adit.jpg"
         time="07.00 AM"
         room="210"
         role="Profesional UI/UX Design"
