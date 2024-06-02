@@ -1,7 +1,7 @@
 const OverviewImg = () => {
   return (
       
-      <div className="px-[15px] w-1/2">
+      <div className="px-[15px] w-full lg:w-1/2">
         <img
           src="/assets/img/banner/conferences.jpg"
           alt="Confferences"

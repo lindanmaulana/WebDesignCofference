@@ -5,13 +5,13 @@ const Speakers = () => {
   return (
     <section className="py-[100px]">
       <div className="container px-10">
-        <div className="flexbox-center flex-col w-full gap-y-[20px] whitespace-nowrap">
+        <div className="flexbox-center flex-col w-full gap-y-[20px] whitespace-nowrap snap-x">
           <HeadSectionItems
             title="CREATIVE SPEAKERS"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Maiores, ea!"
           />
-          <div className="w-full overflow-x-auto flexbox-center snap-mandatory snap-x custom-scrollbar-x">
+          <div className="w-full overflow-x-auto flexbox-center whitespace-nowrap snap-mandatory snap-x">
             <SpeakersPerson
               src="lindan.jpg"
               name="Lindan Maulana"

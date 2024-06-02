@@ -3,9 +3,8 @@ const SpeakersPerson = (props) => {
 
   return (
     <div className="snap-center">
-      <div className="w-[293px] h-[439px] flex snap-always">
+      <div className="w-[293px] h-[439px] flex">
         <div className="flex flex-col items-center justify-start w-full h-full px-4 py-6">
-          <img src="" alt="" />
           <img
             src={`/assets/img/person/${src}`}
             alt={name}

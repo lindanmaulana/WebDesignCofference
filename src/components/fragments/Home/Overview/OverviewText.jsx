@@ -4,7 +4,7 @@ import Title from "../../../elements/Title";
 
 const OverviewText = () => {
   return (
-    <div className="px-[15px] w-1/2">
+    <div className="px-[15px] w-full lg:w-1/2">
       <Title>
         New Event is a fully responsive one-page template for events,
         conferences or workshops.

@@ -13,7 +13,7 @@ const HeroBanner = () => {
                     Web Design Conference
                   </h2>
                   <div className="flex gap-x-[12px]">
-                    <button className="text-[12px] text-[#FFFFFF] border-2 px-[42px] py-[14px] hover:bg-[#FFFFFF] font-medium hover:text-[#000000] transition-global">
+                    <button className="hidden md:block text-[12px] text-[#FFFFFF] border-2 px-[42px] py-[14px] hover:bg-[#FFFFFF] font-medium hover:text-[#000000] transition-global">
                       LEARN MORE
                     </button>
                     <button className="bg-[#F2545F] text-[12px] text-[#FFFFFF] px-[42px] border-2 border-[#F2545F] py-[14px] font-medium hover:border-[#FFFFFF] hover:bg-transparent transition-global">

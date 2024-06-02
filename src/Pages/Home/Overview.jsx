@@ -4,7 +4,7 @@ import SectionLayouts from "../../components/layouts/SectionLayouts";
 
 const Overview = () => {
   return (
-    <SectionLayouts flexLayouts="flex-row">
+    <SectionLayouts flexLayouts="flex-col lg:flex-row">
       <OverviewText />
       <OverviewImg />
     </SectionLayouts>

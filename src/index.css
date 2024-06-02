@@ -176,7 +176,7 @@
 
 
 /* Kustomisasi scrollbar horizontal */
-.custom-scrollbar-x::-webkit-scrollbar {
+/* .custom-scrollbar-x::-webkit-scrollbar {
   height: 10px;
 }
 
@@ -192,4 +192,4 @@
 
 .custom-scrollbar-x::-webkit-scrollbar-thumb:hover {
   background-color: #F2545F;
-}
+} */

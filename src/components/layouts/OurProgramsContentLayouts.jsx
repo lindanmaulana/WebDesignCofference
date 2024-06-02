@@ -3,7 +3,7 @@ import { IoLocationSharp, IoTimeOutline } from "react-icons/io5";
 const OurProgramsContentLayouts = (props) => {
     const {src, time, room, role, name, description} = props
   return (
-    <div className="flex w-full py-[15px]">
+    <div className="flex flex-col lg:flex-row w-full gap-y-6 py-[15px]">
       <div className="w-1/8 max-h-[180px] px-[15px] flex justify-start items-start">
         <img
           src={`/assets/img/person/${src}`}

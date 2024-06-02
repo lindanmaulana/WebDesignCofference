@@ -5,7 +5,7 @@ const EventHighlights = () => {
   return (
     <section className="py-[100px] bg-[#222222]">
       <div className="container px-10">
-        <div className="flex w-full">
+        <div className="flex flex-col w-full lg:flex-row">
           <EventHighLightsItems
             icons={<IoIosPeople className="w-16 h-16 text-[#F2545F]" />}
             title="650 Participants"

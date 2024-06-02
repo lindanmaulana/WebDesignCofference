@@ -4,7 +4,7 @@ const OurProgram = () => {
 
   return (
     <section className="py-[100px]">
-      <div className="container px-10">
+      <div className="container px-2 lg:px-10">
         <div className="flex flex-col w-full px-[15px]">
             
           <div className="min-h-[119px]">

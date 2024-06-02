@@ -3,8 +3,8 @@ const RegisterHere = () => {
     <section className="bg-[url('/public/assets/img/bg/register.jpg')] bg-center bg-cover">
       <div className="bg-black/80 py-[140px]">
         <div className="container px-10">
-          <div className="flex items-center justify-center w-full ">
-            <div className="px-[15px] w-3/5">
+          <div className="flex flex-col items-center justify-center w-full lg:flex-row">
+            <div className="px-[15px] w-full lg:w-3/5">
               <h2 className="text-[30px] mt-[20px] mb-[10px] text-[#FFFFFF] font-semibold">
                 REGISTER HERE
               </h2>
@@ -19,7 +19,7 @@ const RegisterHere = () => {
                 diam nonummy.
               </p>
             </div>
-            <div className="px-[15px] flex-1">
+            <div className="px-[15px] w-full lg:flex-1">
               <form action="" className="flex flex-col gap-y-[16px]">
                 <input
                   type="text"

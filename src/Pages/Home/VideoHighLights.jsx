@@ -4,7 +4,7 @@ import SectionLayouts from "../../components/layouts/SectionLayouts"
 
 const VideoHighLights = () => {
   return (
-    <SectionLayouts flexLayouts="flex-row">
+    <SectionLayouts flexLayouts="flex-col lg:flex-row">
       <VideoHighLightText/>
       <VideoHighLightsItems/>
     </SectionLayouts>

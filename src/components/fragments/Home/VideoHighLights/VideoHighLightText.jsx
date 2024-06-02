@@ -4,7 +4,7 @@ import Description from "../../../elements/Description";
 
 const VideoHighLightText = () => {
   return (
-    <div className="px-[15px] w-1/2">
+    <div className="px-[15px] w-full lg:w-1/2">
       <Title>WATCH VIDEO</Title>
       <p className="text-[20px] text-[#333333] mt-[20px] mb-[10px] pb-[12px]">
         Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at,
