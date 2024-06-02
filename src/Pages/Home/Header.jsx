@@ -3,7 +3,7 @@ import HamburgerMenu from "../../components/fragments/Home/HamburgerMenu";
 import Navigasi from "../../components/fragments/Home/Navigasi";
 
 const Header = (props) => {
-  const {herobannerRef, overviewRef, eventHighlightsRef, videoHighLightsRef} = props
+  const {herobannerRef, overviewRef, speakers, videoHighLightsRef} = props
   
   return (
     <div className="fixed top-0 right-0 flexbox-center justify-between w-full py-[10px] px-10 bg-[#000000] md:bg-transparent z-50">
@@ -15,7 +15,7 @@ const Header = (props) => {
 
       <HamburgerMenu />
 
-      <Navigasi herobannerRef={herobannerRef} overviewRef={overviewRef} eventHighlightsRef={eventHighlightsRef} videoHighLightsRef={videoHighLightsRef} />
+      <Navigasi herobannerRef={herobannerRef} overviewRef={overviewRef} speakers={speakers} videoHighLightsRef={videoHighLightsRef} />
     </div>
   );
 };

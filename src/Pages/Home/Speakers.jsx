@@ -1,9 +1,10 @@
+import { forwardRef } from "react";
 import HeadSectionItems from "../../components/fragments/Home/HeadSectionItems";
 import SpeakersPerson from "../../components/fragments/Home/SpeakersPerson";
 
-const Speakers = () => {
+const Speakers = forwardRef((props, ref) => {
   return (
-    <section className="py-[100px]">
+    <section className="py-[100px]" ref={ref}>
       <div className="container px-10">
         <div className="flexbox-center flex-col w-full gap-y-[20px] whitespace-nowrap snap-x">
           <HeadSectionItems
@@ -32,6 +33,6 @@ const Speakers = () => {
       </div>
     </section>
   );
-};
-
+});
+Speakers.displayName = "Speakers"
 export default Speakers;

@@ -17,21 +17,21 @@ const LandingPage = () => {
 
   const herobannerRef = useRef(null)
   const overviewRef = useRef(null)
-  const eventHighlightsRef = useRef(null)
+  const speakers = useRef(null)
   const videoHighLightsRef = useRef(null)
 
   return (
     <Fragment>
       <header>
-        <Header herobannerRef={herobannerRef} overviewRef={overviewRef} eventHighlightsRef={eventHighlightsRef} videoHighLightsRef={videoHighLightsRef} />
+        <Header herobannerRef={herobannerRef} overviewRef={overviewRef} speakers={speakers} videoHighLightsRef={videoHighLightsRef} />
       </header>
 
       <main>
         <HeroBanner ref={herobannerRef} />
         <Overview linkRef={overviewRef} />
-        <EventHighlights ref={eventHighlightsRef} />
+        <EventHighlights />
         <VideoHighLights linkRef={videoHighLightsRef}/>
-        <Speakers />
+        <Speakers ref={speakers} />
         <OurProgram />
         <RegisterHere />
         <Questions />
