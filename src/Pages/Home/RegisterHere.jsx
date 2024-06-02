@@ -1,4 +1,6 @@
+
 const RegisterHere = () => {
+  
   return (
     <section className="bg-[url('/public/assets/img/bg/register.jpg')] bg-center bg-cover">
       <div className="bg-black/80 py-[140px]">

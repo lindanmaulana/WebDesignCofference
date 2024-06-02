@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import { Fragment } from "react";
+import { Fragment, useRef } from "react";
 import HeroBanner from "./HeroBanner";
 import Overview from "./Overview";
 import Speakers from "./Speakers";
@@ -14,17 +14,23 @@ import OurSponsor from "./OurSponsor";
 import EventContact from "./EventContact";
 
 const LandingPage = () => {
+
+  const herobannerRef = useRef(null)
+  const overviewRef = useRef(null)
+  const eventHighlightsRef = useRef(null)
+  const videoHighLightsRef = useRef(null)
+
   return (
     <Fragment>
       <header>
-        <Header />
+        <Header herobannerRef={herobannerRef} overviewRef={overviewRef} eventHighlightsRef={eventHighlightsRef} videoHighLightsRef={videoHighLightsRef} />
       </header>
 
       <main>
-        <HeroBanner />
-        <Overview />
-        <EventHighlights />
-        <VideoHighLights />
+        <HeroBanner ref={herobannerRef} />
+        <Overview linkRef={overviewRef} />
+        <EventHighlights ref={eventHighlightsRef} />
+        <VideoHighLights linkRef={videoHighLightsRef}/>
         <Speakers />
         <OurProgram />
         <RegisterHere />

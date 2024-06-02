@@ -1,9 +1,10 @@
 import { IoIosPeople, IoIosTimer, IoIosMic } from "react-icons/io";
 import EventHighLightsItems from "../../components/fragments/Home/EventHighLightsItems";
+import { forwardRef } from "react";
 
-const EventHighlights = () => {
+const EventHighlights = forwardRef((props, ref) => {
   return (
-    <section className="py-[100px] bg-[#222222]">
+    <section className="py-[100px] bg-[#222222]" ref={ref}>
       <div className="container px-10">
         <div className="flex flex-col w-full lg:flex-row">
           <EventHighLightsItems
@@ -31,6 +32,8 @@ const EventHighlights = () => {
       </div>
     </section>
   );
-};
+});
+
+EventHighlights.displayName = "EventHighLights"
 
 export default EventHighlights;

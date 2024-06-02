@@ -2,9 +2,11 @@ import OverviewImg from "../../components/fragments/Home/Overview/OverviewImg";
 import OverviewText from "../../components/fragments/Home/Overview/OverviewText";
 import SectionLayouts from "../../components/layouts/SectionLayouts";
 
-const Overview = () => {
+const Overview = (props) => {
+  const {linkRef} = props
+  
   return (
-    <SectionLayouts flexLayouts="flex-col lg:flex-row">
+    <SectionLayouts flexLayouts="flex-col lg:flex-row" ref={linkRef}>
       <OverviewText />
       <OverviewImg />
     </SectionLayouts>

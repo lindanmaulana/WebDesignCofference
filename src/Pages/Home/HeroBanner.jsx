@@ -1,8 +1,8 @@
-
-const HeroBanner = () => {
+import { forwardRef } from "react"
+const HeroBanner = forwardRef((props, ref) => {
   return (
     <section>
-          <div className="bg-[url('/public/assets/img/bg/banner.jpg')] bg-cover bg-center">
+          <div className="bg-[url('/public/assets/img/bg/banner.jpg')] bg-cover bg-center" ref={ref}>
             <div className="bg-black/60">
               <div className="container px-10">
                 <div className="flex-col w-full h-screen text-center flexbox-center">
@@ -26,6 +26,6 @@ const HeroBanner = () => {
           </div>
         </section>
   )
-}
-
+});
+HeroBanner.displayName = "HeroBanner"
 export default HeroBanner
