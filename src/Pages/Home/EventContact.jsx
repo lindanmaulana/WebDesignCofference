@@ -1,9 +1,10 @@
+import { forwardRef } from "react"
 import Description from "../../components/elements/Description"
 import Title from "../../components/elements/Title"
 
-const EventContact = () => {
+const EventContact = forwardRef((props, ref) => {
   return (
-    <section className="py-[100px] bg-[#eee]">
+    <section className="py-[100px] bg-[#eee]" ref={ref}>
           <div className="container px-10">
             <div className="flex flex-col lg:flex-row max-w-4xl mx-auto min-h-[550px] gap-y-10">
               <div className="w-full pt-[30px] pr-[20px] lg:w-1/2">
@@ -39,6 +40,7 @@ const EventContact = () => {
           </div>
         </section>
   )
-}
+})
+EventContact.displayName = "EventContact"
 
 export default EventContact

@@ -1,7 +1,7 @@
 import NavigasiList from "../../elements/NavigasiList"
 
 const Navigasi = (props) => {
-  const {herobannerRef, overviewRef, speakers, videoHighLightsRef} = props
+  const {herobannerRef, overviewRef, speakers, ourProgramRef, registerRef, venueRef, sponsorsRef, contactRef} = props
   
   return (
     <nav className="hidden w-4/5 md:block">
@@ -9,11 +9,11 @@ const Navigasi = (props) => {
         <NavigasiList title="INTRO" linkRef={herobannerRef}/>
         <NavigasiList title="OVERVIEW" linkRef={overviewRef} />
         <NavigasiList title="SPEAKERS" linkRef={speakers} />
-        <NavigasiList title="PROGRAMS" linkRef={videoHighLightsRef} />
-        <NavigasiList title="REGISTER" linkRef="register" />
-        <NavigasiList title="VENEU" linkRef="veneu" />
-        <NavigasiList title="SPONSORS" linkRef="sponsors" />
-        <NavigasiList title="CONTACT" linkRef="contact" />
+        <NavigasiList title="PROGRAMS" linkRef={ourProgramRef} />
+        <NavigasiList title="REGISTER" linkRef={registerRef} />
+        <NavigasiList title="VENEU" linkRef={venueRef} />
+        <NavigasiList title="SPONSORS" linkRef={sponsorsRef} />
+        <NavigasiList title="CONTACT" linkRef={contactRef} />
     </ul>
   </nav>
   )

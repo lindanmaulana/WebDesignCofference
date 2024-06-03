@@ -1,9 +1,10 @@
+import { forwardRef } from "react";
 import OurProgramContent from "../../components/fragments/Home/OurProgram/Index";
 
-const OurProgram = () => {
+const OurProgram = forwardRef((props, ref) => {
 
   return (
-    <section className="py-[100px]">
+    <section className="py-[100px]" ref={ref}>
       <div className="container px-2 lg:px-10">
         <div className="flex flex-col w-full px-[15px]">
             
@@ -23,6 +24,7 @@ const OurProgram = () => {
       </div>
     </section>
   );
-};
+});
+OurProgram.displayName = "OurProgram"
 
 export default OurProgram;

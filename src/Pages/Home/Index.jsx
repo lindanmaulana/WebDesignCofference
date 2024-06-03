@@ -18,26 +18,30 @@ const LandingPage = () => {
   const herobannerRef = useRef(null)
   const overviewRef = useRef(null)
   const speakers = useRef(null)
-  const videoHighLightsRef = useRef(null)
+  const ourProgramRef = useRef(null)
+  const registerRef = useRef(null)
+  const venueRef = useRef(null)
+  const sponsorsRef = useRef(null)
+  const contactRef = useRef(null)
 
   return (
     <Fragment>
       <header>
-        <Header herobannerRef={herobannerRef} overviewRef={overviewRef} speakers={speakers} videoHighLightsRef={videoHighLightsRef} />
+        <Header herobannerRef={herobannerRef} overviewRef={overviewRef} speakers={speakers} ourProgramRef={ourProgramRef} registerRef={registerRef} venueRef={venueRef} sponsorsRef={sponsorsRef} contactRef={contactRef} />
       </header>
 
       <main>
         <HeroBanner ref={herobannerRef} />
         <Overview linkRef={overviewRef} />
         <EventHighlights />
-        <VideoHighLights linkRef={videoHighLightsRef}/>
+        <VideoHighLights/>
         <Speakers ref={speakers} />
-        <OurProgram />
-        <RegisterHere />
+        <OurProgram ref={ourProgramRef} />
+        <RegisterHere ref={registerRef} />
         <Questions />
-        <EventVenue />
-        <OurSponsor />
-        <EventContact />
+        <EventVenue ref={venueRef} />
+        <OurSponsor ref={sponsorsRef} />
+        <EventContact ref={contactRef} />
       </main>
 
       <footer className="py-[100px]">

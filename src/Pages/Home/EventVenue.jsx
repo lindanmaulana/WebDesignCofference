@@ -1,8 +1,9 @@
+import { forwardRef } from "react"
 import Description from "../../components/elements/Description"
 
-const EventVenue = () => {
+const EventVenue = forwardRef((props, ref) => {
   return (
-    <section className="bg-[url(/public/assets/img/bg/venue.jpg)] bg-center bg-cover">
+    <section className="bg-[url(/public/assets/img/bg/venue.jpg)] bg-center bg-cover" ref={ref}>
     <div className="py-[70px]">
       <div className="container px-10">
         <div className="max-w-4xl mx-auto">
@@ -33,6 +34,6 @@ const EventVenue = () => {
     </div>
   </section>
   )
-}
-
+})
+EventVenue.displayName = "EventVenue"
 export default EventVenue

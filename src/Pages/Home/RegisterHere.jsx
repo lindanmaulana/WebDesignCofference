@@ -1,8 +1,9 @@
+import { forwardRef } from "react";
 
-const RegisterHere = () => {
+const RegisterHere = forwardRef((props, ref) => {
   
   return (
-    <section className="bg-[url('/public/assets/img/bg/register.jpg')] bg-center bg-cover">
+    <section className="bg-[url('/public/assets/img/bg/register.jpg')] bg-center bg-cover" ref={ref}>
       <div className="bg-black/80 py-[140px]">
         <div className="container px-10">
           <div className="flex flex-col items-center justify-center w-full lg:flex-row">
@@ -53,6 +54,6 @@ const RegisterHere = () => {
       </div>
     </section>
   );
-};
-
+});
+RegisterHere.displayName = "RegisterHere"
 export default RegisterHere;
